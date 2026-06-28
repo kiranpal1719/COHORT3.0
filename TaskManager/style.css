@@ -1,0 +1,415 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+width: 100%;
+height: 100%;
+padding: 20px;
+background-color: #c2c0e7;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 35px;
+}
+
+.status{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.status div{
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+.status h2{
+  color: #6c63ff;
+  margin-bottom: 4px;
+}
+
+.status p{
+  color: grey;
+  font-size: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+input, select, button{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+input, select{
+  border: 1px solid #ccc;
+}
+
+#AddBtn{
+  background-color: #1eb838;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+#AddBtn:hover{
+  background-color: #574eea;
+}
+
+#ThemeBtn{
+  width: 100%;
+  margin-bottom: 18px;
+  border: none;
+  background-color: rgb(29, 27, 27);
+  color: white;
+  cursor: pointer;
+
+}
+
+.complete{
+  background-color: green;
+  margin-right: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.delete{
+  background-color: red;
+  margin-right: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+
+#TaskContainer{
+display: flex;
+flex-direction: column;
+gap: 13px;
+}
+
+.Task{
+  background-color: white;
+  padding: 14px;
+  border-radius: 10px;
+
+}
+
+.Task h3{
+  margin-bottom: 10px;
+}
+
+.Task p{
+  color: grey;
+  margin-bottom: 10px;
+}
+  
+
+
+.nav{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+ color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+ 
+}
+
+#box{
+  height: 92%;
+  margin: 15px;
+
+}
+
+
+.left-top{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+ 
+
+  
+  
+}
+
+.right-top{
+  display: flex;
+  gap: 25px;
+}
+
+h1{
+  font-size: 95px;
+  text-align: center;
+  font-weight: 800;
+
+}
+
+
+h5{
+font-size: 20px;
+font-weight: 200;
+margin-bottom: 40px;
+color: white;
+
+
+}
+
+
+.subscribe{
+  padding: 0px 15px;
+  font-size: 20px;
+  background: transparent;
+  border: 1px solid white;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+
+
+
+#box1{
+height: 100%;
+background-color: rgb(236, 244, 244);
+margin: 15px;
+
+
+}
+
+
+h3{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 70px;
+  letter-spacing: 2px;
+}
+
+.cards{
+  height: 70%;
+  width: 77%;
+  /* background-color: rgb(14, 2, 91); */
+  margin-left: 12%;
+  display: flex;
+
+
+}
+
+.card1{
+  background-color: blueviolet;
+  height: 430px;
+ width: 370px;
+ margin: 30px;
+ box-shadow: 4px 6px 7px 10px rgb(166, 159, 159);
+ background-image: url(https://images.unsplash.com/photo-1511936606692-5e0d73f6b638?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+ background-size: cover;
+ background-position: center;
+
+ 
+}
+
+
+.paragraph{
+  text-align: center;
+  font-size: 15px;
+  width: 21.2%;
+  margin-top: 17%;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  
+}
+
+
+.card2{
+  background-color: rgb(198, 243, 38);
+  height: 430px;
+ width: 370px;
+ margin: 30px;
+  box-shadow: 4px 6px 7px 10px rgb(166, 159, 159);
+  background-image: url(https://images.unsplash.com/photo-1624817670169-57a1245cf3f1?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+ background-position: center;
+ 
+}
+
+.card3{
+  background-color: rgb(20, 210, 58);
+  height: 430px;
+ width: 370px;
+ margin: 30px;
+  box-shadow: 4px 6px 7px 10px rgb(166, 159, 159);
+  background-image: url(https://images.unsplash.com/photo-1536431311719-398b6704d4cc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+ background-position: center;
+ 
+}
+
+article{
+  height: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.image{
+  height: 90%;
+  width: 50%;
+  /* background-color: red; */
+  margin: 15px;
+  background-image: url(https://images.unsplash.com/photo-1621849400072-f554417f7051?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+.about{
+  height: 90%;
+  width: 50%;
+  /* background-color: red; */
+   margin: 15px;
+}
+
+h4{
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 50px;
+}
+
+p{
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  padding: 29px;
+}
+
+section{
+
+  height: 60%;
+background-color: rgb(236, 244, 244);
+  margin: 15px;
+
+
+  
+ 
+
+}
+
+.text p{
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+ span{
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 200;
+
+}
+
+.text input{
+  margin-left: 42%;
+  padding: 25px;
+  border-radius: 2px;
+  border: none;
+
+}
+
+.text button{
+  margin-left: 46%;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px;
+ font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  text-transform: uppercase;
+  background: transparent;
+  
+}
+
+footer{
+ 
+  height: 40%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+   
+
+
+}
+
+
+
+.icon{
+  margin: 80px;
+  font-size: 25px;
+  
+
+  
+ 
+}
+
+.bottom-right{
+  display: flex;
+  font-size: 23px;
+
+  font-weight: 300;
+  text-transform: uppercase;
+  gap: 25px;
+    
+
+}
+
